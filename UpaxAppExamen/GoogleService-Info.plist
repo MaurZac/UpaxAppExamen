@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>831161272857-9f0dfhb2820ssp9qfi67rkthabtpuiba.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.831161272857-9f0dfhb2820ssp9qfi67rkthabtpuiba</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBiobJtoDtUPdGOlN7K-XSBb54gae5ZnVo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>831161272857</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.maurzac.examen.UpaxAppExamen</string>
+	<key>PROJECT_ID</key>
+	<string>upax-fbee0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>upax-fbee0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:831161272857:ios:db2a985184c31e08aa3888</string>
+</dict>
+</plist>
