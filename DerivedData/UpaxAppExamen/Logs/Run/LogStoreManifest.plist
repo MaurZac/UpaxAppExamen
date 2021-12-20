@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>08A0ADDC-2803-4C1C-8936-6671A17B2398</key>
+		<key>129B0249-59FC-497B-B5DC-5A9FF1049C10</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>08A0ADDC-2803-4C1C-8936-6671A17B2398.xcactivitylog</string>
+			<string>129B0249-59FC-497B-B5DC-5A9FF1049C10.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run UpaxAppExamen</string>
 			<key>timeStartedRecording</key>
-			<real>661677952.38823199</real>
+			<real>661713233.62176299</real>
 			<key>timeStoppedRecording</key>
-			<real>661678043.83244002</real>
+			<real>661713292.015095</real>
 			<key>title</key>
 			<string>Run UpaxAppExamen</string>
 			<key>uniqueIdentifier</key>
-			<string>08A0ADDC-2803-4C1C-8936-6671A17B2398</string>
+			<string>129B0249-59FC-497B-B5DC-5A9FF1049C10</string>
 		</dict>
-		<key>0C26E161-74F6-4B4F-9EAD-ACB8BCCCACB3</key>
+		<key>2971DEDC-53A6-4324-83BF-23175077C59D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0C26E161-74F6-4B4F-9EAD-ACB8BCCCACB3.xcactivitylog</string>
+			<string>2971DEDC-53A6-4324-83BF-23175077C59D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run UpaxAppExamen</string>
 			<key>timeStartedRecording</key>
-			<real>661672353.48400104</real>
+			<real>661712289.75039506</real>
 			<key>timeStoppedRecording</key>
-			<real>661675278.69997394</real>
+			<real>661712309.81009495</real>
 			<key>title</key>
 			<string>Run UpaxAppExamen</string>
 			<key>uniqueIdentifier</key>
-			<string>0C26E161-74F6-4B4F-9EAD-ACB8BCCCACB3</string>
+			<string>2971DEDC-53A6-4324-83BF-23175077C59D</string>
 		</dict>
-		<key>0E3CF5D4-CA9C-4F86-930C-E763E444A4DC</key>
+		<key>2AFA82C3-6622-47C5-B984-D0447F2CDABC</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0E3CF5D4-CA9C-4F86-930C-E763E444A4DC.xcactivitylog</string>
+			<string>2AFA82C3-6622-47C5-B984-D0447F2CDABC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Run UpaxAppExamen</string>
 			<key>timeStartedRecording</key>
-			<real>661669634.61235595</real>
+			<real>661711769.10973203</real>
 			<key>timeStoppedRecording</key>
-			<real>661671331.09292197</real>
+			<real>661712022.39186203</real>
 			<key>title</key>
 			<string>Run UpaxAppExamen</string>
 			<key>uniqueIdentifier</key>
-			<string>0E3CF5D4-CA9C-4F86-930C-E763E444A4DC</string>
+			<string>2AFA82C3-6622-47C5-B984-D0447F2CDABC</string>
 		</dict>
-		<key>4A8E4849-30A4-4558-820F-7D76ACBA1288</key>
+		<key>39DE61BA-4067-4093-A22A-5AEC4C9284E8</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4A8E4849-30A4-4558-820F-7D76ACBA1288.xcactivitylog</string>
+			<string>39DE61BA-4067-4093-A22A-5AEC4C9284E8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Run UpaxAppExamen</string>
 			<key>timeStartedRecording</key>
-			<real>661680062.61476004</real>
+			<real>661713569.38759899</real>
 			<key>timeStoppedRecording</key>
-			<real>661680070.158813</real>
+			<real>661714574.98018301</real>
 			<key>title</key>
 			<string>Run UpaxAppExamen</string>
 			<key>uniqueIdentifier</key>
-			<string>4A8E4849-30A4-4558-820F-7D76ACBA1288</string>
+			<string>39DE61BA-4067-4093-A22A-5AEC4C9284E8</string>
 		</dict>
-		<key>941D4905-B084-4848-A18D-1125797C1F7A</key>
+		<key>57200EAA-B05F-48DF-A425-E51DE9A4DDE1</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>941D4905-B084-4848-A18D-1125797C1F7A.xcactivitylog</string>
+			<string>57200EAA-B05F-48DF-A425-E51DE9A4DDE1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Run UpaxAppExamen</string>
 			<key>timeStartedRecording</key>
-			<real>661678184.37560594</real>
+			<real>661713545.59418201</real>
 			<key>timeStoppedRecording</key>
-			<real>661678338.18562102</real>
+			<real>661713563.25449395</real>
 			<key>title</key>
 			<string>Run UpaxAppExamen</string>
 			<key>uniqueIdentifier</key>
-			<string>941D4905-B084-4848-A18D-1125797C1F7A</string>
+			<string>57200EAA-B05F-48DF-A425-E51DE9A4DDE1</string>
 		</dict>
-		<key>D4CC83A4-4626-4658-B5D3-DA4F8185E919</key>
+		<key>5DF1333A-3B7A-4336-BDD7-E2F0C89D659D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D4CC83A4-4626-4658-B5D3-DA4F8185E919.xcactivitylog</string>
+			<string>5DF1333A-3B7A-4336-BDD7-E2F0C89D659D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Run UpaxAppExamen</string>
 			<key>timeStartedRecording</key>
-			<real>661671418.22822201</real>
+			<real>661713337.101138</real>
 			<key>timeStoppedRecording</key>
-			<real>661671434.23969996</real>
+			<real>661713342.29644799</real>
 			<key>title</key>
 			<string>Run UpaxAppExamen</string>
 			<key>uniqueIdentifier</key>
-			<string>D4CC83A4-4626-4658-B5D3-DA4F8185E919</string>
+			<string>5DF1333A-3B7A-4336-BDD7-E2F0C89D659D</string>
 		</dict>
-		<key>E15D27F3-6E8B-4C2A-AB85-8323A656A7B1</key>
+		<key>7F56A3A9-E9C0-499F-BBD6-EB00EF9EE11F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E15D27F3-6E8B-4C2A-AB85-8323A656A7B1.xcactivitylog</string>
+			<string>7F56A3A9-E9C0-499F-BBD6-EB00EF9EE11F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Run UpaxAppExamen</string>
 			<key>timeStartedRecording</key>
-			<real>661678338.86794603</real>
+			<real>661713377.79042995</real>
 			<key>timeStoppedRecording</key>
-			<real>661678352.61670303</real>
+			<real>661713391.44595206</real>
 			<key>title</key>
 			<string>Run UpaxAppExamen</string>
 			<key>uniqueIdentifier</key>
-			<string>E15D27F3-6E8B-4C2A-AB85-8323A656A7B1</string>
+			<string>7F56A3A9-E9C0-499F-BBD6-EB00EF9EE11F</string>
 		</dict>
-		<key>E220D943-0C2A-4F8F-8F67-89CCB85E8129</key>
+		<key>B0153CA0-8328-45E9-83F9-B8AEB1B8CD22</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E220D943-0C2A-4F8F-8F67-89CCB85E8129.xcactivitylog</string>
+			<string>B0153CA0-8328-45E9-83F9-B8AEB1B8CD22.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,13 +270,13 @@
 			<key>signature</key>
 			<string>Run UpaxAppExamen</string>
 			<key>timeStartedRecording</key>
-			<real>661680053.99951398</real>
+			<real>661713434.56259203</real>
 			<key>timeStoppedRecording</key>
-			<real>661680062.71921003</real>
+			<real>661713464.73488903</real>
 			<key>title</key>
 			<string>Run UpaxAppExamen</string>
 			<key>uniqueIdentifier</key>
-			<string>E220D943-0C2A-4F8F-8F67-89CCB85E8129</string>
+			<string>B0153CA0-8328-45E9-83F9-B8AEB1B8CD22</string>
 		</dict>
 	</dict>
 </dict>

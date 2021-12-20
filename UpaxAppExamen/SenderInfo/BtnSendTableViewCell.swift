@@ -9,6 +9,10 @@ import UIKit
 
 class BtnSendTableViewCell: UITableViewCell {
     
+    
+    let infoname = FirtsTableViewCell()
+    
+    var namevalue : String?
     static let identifier =  "BtnSendTableViewCell"
     
     static func nib() -> UINib {
@@ -24,6 +28,11 @@ class BtnSendTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    @IBAction func btnSendAction(_ sender: UIButton) {
+        namevalue = "\(String(describing: infoname.userName))"
+        print(namevalue)
+        
     }
     
 }

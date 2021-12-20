@@ -25,6 +25,9 @@
                         <color key="tintColor" red="0.28404273699999999" green="0.57063415849999999" blue="0.76859849690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="filled" title="Enviar" titleAlignment="center"/>
+                        <connections>
+                            <action selector="btnSendAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="i89-Pc-Ubd"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>
@@ -33,7 +36,7 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="133" y="91"/>
+            <point key="canvasLocation" x="131.8840579710145" y="90.401785714285708"/>
         </tableViewCell>
     </objects>
 </document>

@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class SelfieViewController: UIViewController {
+class SelfieViewController: UIViewController, UINavigationControllerDelegate {
     
     var takenphoto: UIImage?
     @IBOutlet weak var photoTime: UIImageView!
@@ -32,23 +32,30 @@ class SelfieViewController: UIViewController {
     }
     
     
+    func activaCam() {
+      let picker = UIImagePickerController()
+        picker.sourceType = .photoLibrary
+        picker.delegate = self
+        present(picker, animated: true, completion: nil)
+    }
+    
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         previewLayer.frame  = view.bounds
         
     }
     
-    
-    
-    func checkCameraPermissions() {
+    private func checkCameraPermissions() {
         switch AVCaptureDevice.authorizationStatus(for: .video){
         case .notDetermined:
             AVCaptureDevice.requestAccess(for: .video) { granted in
                 guard granted else {
                     return
                 }
-                DispatchQueue.main.async {
+                DispatchQueue.main.async { [self] in
                     self.setUpCamera()
+                    activaCam()
                 }
             }
         case .restricted:
@@ -57,12 +64,15 @@ class SelfieViewController: UIViewController {
             break
         case .authorized:
             setUpCamera()
+            DispatchQueue.main.async {
+                self.activaCam()
+            }
         @unknown default:
             break
         }
     }
     
-    func setUpCamera() {
+    private func setUpCamera() {
         let session = AVCaptureSession()
         if let device = AVCaptureDevice.default(for: .video) {
             do {
@@ -84,6 +94,33 @@ class SelfieViewController: UIViewController {
             }
         }
     }
+}
+extension SelfieViewController: AVCapturePhotoCaptureDelegate, UIImagePickerControllerDelegate {
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        guard let image  = info[UIImagePickerController.InfoKey.originalImage] as? UIImage else {
+            return
+        }
+        photoTime.image = image
+    }
+    
+    
+    
+    
+    func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
+        guard let data = photo.fileDataRepresentation() else {
+            return
+        }
+        let image = UIImage(data: data)
+        
+        session?.stopRunning()
+        
+        let imageView = UIImageView(image: takenphoto)
+        imageView.contentMode = .scaleAspectFill
+        imageView.frame = view.bounds
+        view.addSubview(imageView)
+    }
+    
 }
 
 
