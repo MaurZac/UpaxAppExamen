@@ -15,6 +15,14 @@
 		C54AF24A276D42FA0038ABCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54AF249276D42FA0038ABCF /* Assets.xcassets */; };
 		C54AF24D276D42FA0038ABCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54AF24B276D42FA0038ABCF /* LaunchScreen.storyboard */; };
 		C5A58159276E3500008C612C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5A58158276E3500008C612C /* GoogleService-Info.plist */; };
+		C5D8AA1927701D59002F66FA /* FirtsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8AA1727701D59002F66FA /* FirtsTableViewCell.swift */; };
+		C5D8AA1A27701D59002F66FA /* FirtsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D8AA1827701D59002F66FA /* FirtsTableViewCell.xib */; };
+		C5D8AA1D27701D6C002F66FA /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8AA1B27701D6C002F66FA /* SecondTableViewCell.swift */; };
+		C5D8AA1E27701D6C002F66FA /* SecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D8AA1C27701D6C002F66FA /* SecondTableViewCell.xib */; };
+		C5D8AA2227702B53002F66FA /* BtnSendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8AA2027702B53002F66FA /* BtnSendTableViewCell.swift */; };
+		C5D8AA2327702B53002F66FA /* BtnSendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D8AA2127702B53002F66FA /* BtnSendTableViewCell.xib */; };
+		C5D8AA27277030E7002F66FA /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8AA25277030E7002F66FA /* SelfieViewController.swift */; };
+		C5D8AA28277030E7002F66FA /* SelfieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D8AA26277030E7002F66FA /* SelfieViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,14 @@
 		C54AF24C276D42FA0038ABCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C54AF24E276D42FA0038ABCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5A58158276E3500008C612C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5D8AA1727701D59002F66FA /* FirtsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirtsTableViewCell.swift; sourceTree = "<group>"; };
+		C5D8AA1827701D59002F66FA /* FirtsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirtsTableViewCell.xib; sourceTree = "<group>"; };
+		C5D8AA1B27701D6C002F66FA /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		C5D8AA1C27701D6C002F66FA /* SecondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTableViewCell.xib; sourceTree = "<group>"; };
+		C5D8AA2027702B53002F66FA /* BtnSendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnSendTableViewCell.swift; sourceTree = "<group>"; };
+		C5D8AA2127702B53002F66FA /* BtnSendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BtnSendTableViewCell.xib; sourceTree = "<group>"; };
+		C5D8AA25277030E7002F66FA /* SelfieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
+		C5D8AA26277030E7002F66FA /* SelfieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfieViewController.xib; sourceTree = "<group>"; };
 		D620EF1D4EC330CC58DE62E8 /* Pods-UpaxAppExamen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpaxAppExamen.release.xcconfig"; path = "Target Support Files/Pods-UpaxAppExamen/Pods-UpaxAppExamen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +66,6 @@
 				B415E0B392E4B0EB73CA05E5 /* Pods-UpaxAppExamen.debug.xcconfig */,
 				D620EF1D4EC330CC58DE62E8 /* Pods-UpaxAppExamen.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +98,9 @@
 		C54AF23F276D42F90038ABCF /* UpaxAppExamen */ = {
 			isa = PBXGroup;
 			children = (
+				C5D8AA1F27702A94002F66FA /* SenderInfo */,
+				C5D8AA12277013AA002F66FA /* FirtsCell */,
+				C5D8AA0D277009B7002F66FA /* SecondCell */,
 				C54AF240276D42F90038ABCF /* AppDelegate.swift */,
 				C54AF242276D42F90038ABCF /* SceneDelegate.swift */,
 				C54AF244276D42F90038ABCF /* ViewController.swift */,
@@ -93,6 +111,43 @@
 				C5A58158276E3500008C612C /* GoogleService-Info.plist */,
 			);
 			path = UpaxAppExamen;
+			sourceTree = "<group>";
+		};
+		C5D8AA0D277009B7002F66FA /* SecondCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8AA242770308F002F66FA /* SelfieComponent */,
+				C5D8AA1B27701D6C002F66FA /* SecondTableViewCell.swift */,
+				C5D8AA1C27701D6C002F66FA /* SecondTableViewCell.xib */,
+			);
+			path = SecondCell;
+			sourceTree = "<group>";
+		};
+		C5D8AA12277013AA002F66FA /* FirtsCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8AA1727701D59002F66FA /* FirtsTableViewCell.swift */,
+				C5D8AA1827701D59002F66FA /* FirtsTableViewCell.xib */,
+			);
+			path = FirtsCell;
+			sourceTree = "<group>";
+		};
+		C5D8AA1F27702A94002F66FA /* SenderInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8AA2027702B53002F66FA /* BtnSendTableViewCell.swift */,
+				C5D8AA2127702B53002F66FA /* BtnSendTableViewCell.xib */,
+			);
+			path = SenderInfo;
+			sourceTree = "<group>";
+		};
+		C5D8AA242770308F002F66FA /* SelfieComponent */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8AA25277030E7002F66FA /* SelfieViewController.swift */,
+				C5D8AA26277030E7002F66FA /* SelfieViewController.xib */,
+			);
+			path = SelfieComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,10 +210,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8AA28277030E7002F66FA /* SelfieViewController.xib in Resources */,
 				C54AF24D276D42FA0038ABCF /* LaunchScreen.storyboard in Resources */,
+				C5D8AA1E27701D6C002F66FA /* SecondTableViewCell.xib in Resources */,
+				C5D8AA2327702B53002F66FA /* BtnSendTableViewCell.xib in Resources */,
 				C5A58159276E3500008C612C /* GoogleService-Info.plist in Resources */,
 				C54AF24A276D42FA0038ABCF /* Assets.xcassets in Resources */,
 				C54AF248276D42F90038ABCF /* Main.storyboard in Resources */,
+				C5D8AA1A27701D59002F66FA /* FirtsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54AF245276D42F90038ABCF /* ViewController.swift in Sources */,
+				C5D8AA1D27701D6C002F66FA /* SecondTableViewCell.swift in Sources */,
+				C5D8AA27277030E7002F66FA /* SelfieViewController.swift in Sources */,
 				C54AF241276D42F90038ABCF /* AppDelegate.swift in Sources */,
+				C5D8AA1927701D59002F66FA /* FirtsTableViewCell.swift in Sources */,
+				C5D8AA2227702B53002F66FA /* BtnSendTableViewCell.swift in Sources */,
 				C54AF243276D42F90038ABCF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

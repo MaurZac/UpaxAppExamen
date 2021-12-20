@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="116" id="KGk-i7-Jjw" customClass="FirtsTableViewCell" customModule="UpaxAppExamen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="116"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="116"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese su nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kAX-UT-f7W">
+                        <rect key="frame" x="46" y="55" width="260" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="260" id="ajS-wN-EdS"/>
+                            <constraint firstAttribute="height" constant="35" id="mRo-Iq-X4s"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aK-2I-Ftk">
+                        <rect key="frame" x="140.5" y="20" width="71" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="71" id="UnM-Rc-yAv"/>
+                            <constraint firstAttribute="height" constant="21" id="hAw-o6-yCt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.28404273699999999" green="0.57063415849999999" blue="0.76859849690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8aK-2I-Ftk" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="8i8-Vf-QXu"/>
+                    <constraint firstItem="kAX-UT-f7W" firstAttribute="top" secondItem="8aK-2I-Ftk" secondAttribute="bottom" constant="14" id="Qoi-Fv-3Yn"/>
+                    <constraint firstItem="kAX-UT-f7W" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="dUc-PL-2wI"/>
+                    <constraint firstItem="8aK-2I-Ftk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" symbolic="YES" id="j7e-yu-U9t"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="userName" destination="kAX-UT-f7W" id="kFS-WU-dxC"/>
+            </connections>
+            <point key="canvasLocation" x="160.86956521739131" y="66.294642857142861"/>
+        </tableViewCell>
+    </objects>
+</document>
